@@ -1,9 +1,24 @@
+#include "ESP_Blockly.h"
+
+#define beeperPin 13
+
+
 void setup() {
-  // put your setup code here, to run once:
+  
+  espSingInit(beeperPin);
+      espSingTone(1000, 3200);
+      delay(1000);
+      espSingTone(5000, 3200);
+      delay(1000);
+
+      for (int i=0 ; i<=35 ; i++)
+      {
+        espSing(i);
+        delay(1000);
+      }
 
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-
+void loop() {  
+  
 }
