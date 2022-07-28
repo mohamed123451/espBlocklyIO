@@ -1,8 +1,7 @@
 #include "ESP_Blockly.h"
 
 
-int NumLed =60;
-int LedPin =15;
+
 
 
 void setup() {

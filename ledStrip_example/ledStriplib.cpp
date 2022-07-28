@@ -4,8 +4,9 @@
 extern int NumLed;
 extern int LedPin;
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(NumLed, LedPin, NEO_GRB + NEO_KHZ800);
 
+
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(NumLed, LedPin, NEO_GRB + NEO_KHZ800);
 
 
 void ledStripClass :: ledStripBegin(){

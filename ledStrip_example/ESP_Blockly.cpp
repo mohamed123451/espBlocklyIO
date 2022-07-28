@@ -26,6 +26,10 @@ soundClass  sound1;
 /////////////Led Strip////////////////
 ledStripClass ledStrip1;
 
+
+int NumLed =60;
+int LedPin =15;
+
   void ledStripBegin(){
     ledStrip1.ledStripBegin();
   }
