@@ -26,6 +26,9 @@ soundClass  sound1;
 /////////////Led Strip////////////////
 ledStripClass ledStrip1;
 
+int NumLed =60;
+int LedPin =15;
+
   void ledStripBegin(){
     ledStrip1.ledStripBegin();
   }
@@ -67,4 +70,19 @@ servoClass servo1;
   }
   void servoAngle(int angel){
     servo1.servoAngle(angel);
+  }
+
+
+
+////////////OLED Lib /////////////////////
+oledClass oled1;
+
+  void oledInit(){
+    oled1.oledInit();
+  }
+  void oledPrint(char* text){
+    oled1.oledPrint(text);
+  }
+  void oledSetting(int tSize, int x, int y){
+    oled1.oledSetting(tSize, x, y);
   }

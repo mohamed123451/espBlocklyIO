@@ -1,8 +1,6 @@
 
 #include "ESP_Blockly.h"
 
-int NumLed =60;
-int LedPin =15;
 
 #define TRIG_PIN 26 // ESP32 pin GIOP26 connected to Ultrasonic Sensor's TRIG pin
 #define ECHO_PIN 25 // ESP32 pin GIOP25 connected to Ultrasonic Sensor's ECHO pin
