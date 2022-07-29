@@ -25,6 +25,7 @@
 #include "oledLib.h"
 #include "UltraSonicLib.h"
 #include "buttonLib.h"
+#include "TemperatureLib.h"
 
 
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
